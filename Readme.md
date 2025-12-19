@@ -1,118 +1,33 @@
-🚀 Learning Intelligence AI Tool
-🔹 What It Is
+# Learning Intelligence AI Tool
 
-Executable AI-powered Learning Intelligence system
+## Overview
+An AI-powered Learning Intelligence tool built as a production-style REST API.
+It analyzes student learning behavior to predict course completion, detect dropout risk,
+identify difficult chapters, and generate actionable insights.
 
-Built as a production-ready REST API
+This project is an executable AI tool, not a notebook.
 
-Designed for internship / training platforms
+## What This Tool Does
+- Predicts course completion
+- Flags high-risk students
+- Identifies difficult chapters
+- Generates human-readable insights
 
-🔹 What It Solves
+## Tech Stack
+- Python
+- FastAPI
+- Scikit-learn
+- Pandas
+- Joblib
 
-Predicts course completion
+## API Endpoints
+- GET /health
+- POST /analyze
 
-Detects early dropout risk
+## Deployment
+- Deployed on Render (free tier)
+- Cold start may take a few seconds
 
-Identifies difficult chapters
-
-Generates actionable insights for mentors
-
-🔹 Core AI Capabilities
-
-Binary Classification → Course completion prediction
-
-Risk Scoring → HIGH / LOW risk students
-
-Chapter Difficulty Detection → Time, score, dropout-based
-
-Insight Generation → Human-readable summaries
-
-🔹 AI Pipeline
-
-JSON Input
-
-Data Validation
-
-Preprocessing
-
-Feature Engineering
-
-ML Model Inference
-
-Chapter Analytics
-
-Insight Generation
-
-JSON Output
-
-🔹 Tech Stack
-
-Python
-
-FastAPI
-
-Scikit-learn
-
-Pandas
-
-Joblib
-
-🔹 How to Run
-git clone <repo-url>
-cd learning_ai_tool
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-🔹 API Endpoints
-
-GET /health → API status
-
-POST /analyze → Learning analysis & predictions
-
-🔹 ML Details
-
-Model: Logistic Regression
-
-Training: Offline
-
-Inference: Loaded inside API
-
-Reproducible predictions
-
-🔹 Insights Output
-
-High-risk students list
-
-Key completion risk factors
-
-Most difficult chapters
-
-🔹 AI Usage Disclosure
-
-AI tools used for architecture guidance & documentation
-
-All ML logic and implementation written and verified independently
-
-🔹 Why This Project Stands Out
-
-No notebooks
-
-Real AI tool, not a demo
-
-Clean modular architecture
-
-Explainable & actionable outputs
-
-🔹 Assessment Compliance
-
-✔ Executable AI tool
-
-✔ Integrated ML model
-
-✔ Risk detection
-
-✔ Chapter difficulty analysis
-
-✔ Insight generation
+## AI Usage Disclosure
+AI tools were used for guidance and documentation help.
+All ML logic and implementation were done independently.
